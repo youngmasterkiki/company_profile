@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+
+body {
+  min-height: 1000px;
+  font-family: "Fira Sans", sans serif;
+  background-color: #d3d3d3;
+}
+
+/* Header design start */
+.jumbotron {
+  padding-top: 2rem;
+  background-color: #fb8633;
+}
+/* Header design end */
+
+/* Table Design start */
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #fb8633;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.content-table th {
+  padding: 12px 15px;
+}
+
+.content-table td {
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #fb8633;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #000;
+}
+
+/* Table Design end */
+
+/* Carousel Design start */
+.carousel {
+  border-radius: 5px 5px 5px 5px;
+  overflow: hidden;
+}
+/* Carousel Design end */
+
+/* footer design start */
+.footer-web {
+  posisition: relatives;
+  width: 100%;
+  background: #fb8633;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-web .social_icon,
+.footer-web .menu {
+  posisition: relatives;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.footer-web .social_icon li,
+.footer-web .menu li {
+  list-style: none;
+}
+
+.footer-web .social_icon li a {
+  font-size: 2em;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.footer-web .social_icon li a:hover {
+  transform: translateY(-10px);
+}
+
+.footer-web .menu li a {
+  font-size: 1.2em;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+.footer-web .menu li a:hover {
+  opacity: 1;
+}
+
+.footer-web p {
+  color: #fff;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+/* footer design end */
+
+.blockquote-custom {
+  position: relative;
+  font-size: 1.1rem;
+}
+
+.blockquote-custom-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -40px;
+  left: 19px;
+}
+
+.logo {
+  margin-top: 10px;
+  width: 40px;
+  height: 40px;
+}
